@@ -1,0 +1,170 @@
+{
+  "id": "community.trakt-tv",
+  "version": "0.2.7",
+  "name": "Trakt Tv",
+  "description": "Addon for getting Trakt's public and user lists, recommendations and watch list.\n token expires on: 7/29/2024, 2:16:46 PM",
+  "logo": "https://2ecbbd610840-trakt.baby-beamup.club/public/logoPS.png?ver=0.2.7",
+  "background": "https://2ecbbd610840-trakt.baby-beamup.club/public/background.png?ver=0.2.7",
+  "catalogs": [
+    {
+      "type": "trakt",
+      "id": "trakt_watchlist:added,asc",
+      "name": "Watchlist",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "added asc",
+            "added desc",
+            "title asc",
+            "title desc",
+            "released asc",
+            "released desc",
+            "runtime asc",
+            "runtime desc",
+            "votes asc",
+            "votes desc",
+            "rating asc",
+            "rating desc",
+            "rank asc",
+            "rank desc",
+            "popularity asc",
+            "popularity desc",
+            "random asc",
+            "random desc"
+          ]
+        },
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "trakt",
+      "id": "trakt_list:saosin88:27638667:added,asc",
+      "name": "Kids",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "added asc",
+            "added desc",
+            "title asc",
+            "title desc",
+            "released asc",
+            "released desc",
+            "runtime asc",
+            "runtime desc",
+            "votes asc",
+            "votes desc",
+            "rating asc",
+            "rating desc",
+            "rank asc",
+            "rank desc",
+            "popularity asc",
+            "popularity desc",
+            "random asc",
+            "random desc"
+          ]
+        },
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "trakt",
+      "id": "trakt_list:garycrawfordgc:20370350:added,asc",
+      "name": "Latest TV Shows",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "added asc",
+            "added desc",
+            "title asc",
+            "title desc",
+            "released asc",
+            "released desc",
+            "runtime asc",
+            "runtime desc",
+            "votes asc",
+            "votes desc",
+            "rating asc",
+            "rating desc",
+            "rank asc",
+            "rank desc",
+            "popularity asc",
+            "popularity desc",
+            "random asc",
+            "random desc"
+          ]
+        },
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "trakt",
+      "id": "trakt_list:garycrawfordgc:5308818:added,asc",
+      "name": "Latest releases",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "added asc",
+            "added desc",
+            "title asc",
+            "title desc",
+            "released asc",
+            "released desc",
+            "runtime asc",
+            "runtime desc",
+            "votes asc",
+            "votes desc",
+            "rating asc",
+            "rating desc",
+            "rank asc",
+            "rank desc",
+            "popularity asc",
+            "popularity desc",
+            "random asc",
+            "random desc"
+          ]
+        },
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "meta",
+      "types": [
+        "series",
+        "movie"
+      ],
+      "idPrefixes": [
+        "trakt:"
+      ]
+    }
+  ],
+  "types": [],
+  "idPrefixes": [
+    "trakt"
+  ],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
